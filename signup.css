@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Vina Sans', sans-serif;
+}
+#first{
+    color: red;
+}
+#first::placeholder{
+    color: yellow;
+}
+#last{
+    color: red;
+}
+#last::placeholder{
+    color: yellow;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="shortcut icon" href="./images/OIP.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cont">
+        <form action="./login.html">
+            <label for="first">First Name*</label><br>
+            <input type="text" id="first" placeholder="Enter your first name" required ><br>
+            <label for="last">Last Name*</label><br>
+            <input type="text" id="last" placeholder="Enter your last Name" required><br>
+            <label for="email">Email*</label><br>
+            <input type="email" id="email" placeholder="Enter your Email" required><br>
+            <label for="mobile">Mobile number*</label><br>
+            <input type="number" placeholder="Enter your Mobile Number" required><br>
+            <label for="">Gender*</label><br>
+            <input type="radio" name="gender"> <label for="">Male</label>
+            <input type="radio" name="gender"> <label for="">Female</label>
+            <input type="radio" name="gender"> <label for="">Others</label><br>
+            <label for="dob">D.O.B</label><br>
+            <input type="date" id="dob" required><br>
+
+
+            <label for="">Upload Picture</label>
+            <input type="file"><br>  
+
+            <label for="create">Create Password</label><br>
+            <input type="password" id="create" placeholder="Enter your password" required><br>
+
+
+            <label for="confirm">Confirm Password</label><br>
+            <input type="password" id="confirm"><br>
+
+            
+            <input type="checkbox" required id="ch">I have read all the terms and condition<br>
+
+            <input type="url" placeholder="enter the url"><br>
+            <input type="color"><br>
+            <input type="range"><br>
+
+
+            <!-- Select tag:to create a drop down -->
+            <select name="" id="">
+                <option value="" hidden>----select---</option>
+                <option value="">India</option>
+                <option value="">Russia</option>
+                <option value="">Newzeland</option>
+                <option value="">South Africa</option>
+            </select><br>
+
+            <label for="fd">Feedback</label><br>
+            <textarea name="" id="fd" cols="30" rows="10"></textarea><br>
+          
+            <!-- <input type="submit"><br> -->
+            <button type="submit">Sign up</button>
+            <button type="button">Cancel</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
